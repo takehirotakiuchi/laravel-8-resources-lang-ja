@@ -1,4 +1,4 @@
-# Laravel 8 JetStream 日本語化ファイル
+# The Japanese localization files for Laravel 8 JetStream
 
 A set of Japanese message files for Laravel 8.
 The necessary parts are Japaneseized for dashboards and so on.
@@ -18,14 +18,14 @@ To be specific, this corresponds to the part described in `{{{ __('message') }}}
 
 # Usage
 
-## 1.  Change the locale specified in the file `config/app.php` to Japanese. Changing from `en` to `ja`
+## 1.  Change the locale specified in the file `config/app.php` to Japanese. Changing from `en` to `ja`.
 
 ```php
     'locale' => 'ja',
     'fallback_locale' => 'ja',
 ```
 
-## 2. このリポジトリをダウンロードして、上書きする
+## 2. Download the files from this repository and overwrite them.
 
 ### GUI Operation
 
