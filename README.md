@@ -40,6 +40,6 @@ cd laravel-8-resources-lang-ja
 cp -pR ./resources your/laravel/root/resources
 ```
 
-# 参考
+# Reference
 - [GitHub - laravel/jetstream](https://github.com/laravel/jetstream)
 - [Localization - Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/master/localization)
