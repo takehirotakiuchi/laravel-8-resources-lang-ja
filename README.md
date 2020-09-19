@@ -19,7 +19,7 @@ Laravel 8 の日本語メッセージファイル一式です。
 # 使い方
 
 ## 1. `config/app.php`の下記の部分を日本語に指定します。
-`en`から`jp`に変更する
+`en`から`ja`に変更する
 
 ```php
     'locale' => 'ja',
@@ -45,4 +45,3 @@ cp -pR ./resources your/laravel/root/resources
 # 参考
 - [GitHub - laravel/jetstream](https://github.com/laravel/jetstream)
 - [Localization - Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/master/localization)
-
