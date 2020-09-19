@@ -1,9 +1,9 @@
 # Laravel 8 JetStream 日本語化ファイル
 
-Laravel 8 の日本語メッセージファイル一式です。
-ダッシュボートなどで必要な部分を日本語化しています。
+A set of Japanese message files for Laravel 8.
+The necessary parts are Japaneseized for dashboards and so on.
 
-具体的には、i18n対応として`{{ __('message') }}`で記載されている箇所に対応しています。
+To be specific, this corresponds to the part described in `{{{ __('message') }}} for i18n.
 
 ```txt
 ./resources
@@ -16,10 +16,9 @@ Laravel 8 の日本語メッセージファイル一式です。
     └── ja.json
 ```
 
-# 使い方
+# Usage
 
-## 1. `config/app.php`の下記の部分を日本語に指定します。
-`en`から`ja`に変更する
+## 1.  Change the locale specified in the file `config/app.php` to Japanese. Changing from `en` to `ja`
 
 ```php
     'locale' => 'ja',
@@ -28,13 +27,12 @@ Laravel 8 の日本語メッセージファイル一式です。
 
 ## 2. このリポジトリをダウンロードして、上書きする
 
-### マニュアルで対応する場合
+### GUI Operation
 
-ダウンロードした`resouces`ディレクトリをLaravelのルートディレクトリにコピーします。<br>
-（Macの場合は、マージコピーする必要があるので、注意)
+Copy the `resouces` directory downloaded from this repository to your Laravel root directory.
 
-### コマンド操作で対応する場合
-`your/laravel/root`の部分は、ご自身の環境に合わせてください。
+### Command Operation
+Please change the `your/laravel/root` part to your environment.
 
 ```bash
 git clone https://github.com/takehirotakiuchi/laravel-8-resources-lang-ja.git
