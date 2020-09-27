@@ -39,7 +39,7 @@ Laravel 8 の日本語メッセージファイル一式です。
 ```bash
 git clone https://github.com/takehirotakiuchi/laravel-8-resources-lang-ja.git
 cd laravel-8-resources-lang-ja
-cp -pR ./resources your/laravel/root/resources
+cp -pR ./resources your/laravel/root/
 ```
 
 # 参考
